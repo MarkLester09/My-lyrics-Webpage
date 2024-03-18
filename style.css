@@ -1,0 +1,41 @@
+body {
+            background-image: url(Rain.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover ; 
+            background-position: center;
+        }
+	    img{ 
+        background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 500px;
+            background-position: center;
+	       }
+   audio {
+            display: block;
+            margin: 10px auto;
+            width: 50%;
+        }
+    p{font-size: 130%;
+    }
+
+ .container {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 50px;
+   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+ }
+
+.lyrics p:nth-child(odd){
+  background color:#f0f0f0;
+  
+}
+
+.highlighted {
+  background-color: #ACE2E1;
+  font-weight:bold;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
